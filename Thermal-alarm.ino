@@ -32,13 +32,9 @@ void toggle(){
 void loop() {
   temperature=dht.readTemperature();
   currentbuttonstate=digitalRead(7);
-  Serial.print(temperature);
-  Serial.print("-");
-  Serial.print(alarmknowledged);
-  Serial.print("-");
-  Serial.println(currentbuttonstate);
+  Serial.println(temperature);
 
-  if(temperature<31){
+  if(temperature<=31){
     digitalWrite(4,HIGH);
     digitalWrite(3,LOW);
     noTone(8);
