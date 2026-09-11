@@ -55,4 +55,4 @@ the system operates through the following logic states :
 Getting the toggle logic to behave correctly took the most effort - especially handling button state transitions cleanly (avoiding false triggers from a single press) and making sure the alarm state didn't conflict with the automatic temperature check.Debugging this took about 6 days of iteration and testing.
 
 # Demo
-[Watch the demo on linkdIn] 
+[Watch the demo on linkdIn] (https://www.linkedin.com/in/hani-saïdi-8941b5404)
