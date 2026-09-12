@@ -54,5 +54,19 @@ the system operates through the following logic states :
 
 Getting the toggle logic to behave correctly took the most effort - especially handling button state transitions cleanly (avoiding false triggers from a single press) and making sure the alarm state didn't conflict with the automatic temperature check.Debugging this took about 6 days of iteration and testing.
 
+# What I LEARNED :
+
+-Using functions can eliminate logic conflicts, as long as a shared variable connects them
+
+-Variables greatly simplify the overall logic
+
+-Translating a real-world behaviour into code requires identifying the right variables to represent it
+
+-Proper GitHub documentation needs a clean , dedicated folder - opened as its own separate workspace in VS code
+
+-Hardware quality matters : a low-quality push button can introduce unexpected bugs
+
+-Programming often requires thinking outside the box to solve unexpected problems
+
 # Demo
 [Watch the demo on linkdIn] (https://www.linkedin.com/in/hani-saïdi-8941b5404)
